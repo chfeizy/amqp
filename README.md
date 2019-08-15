@@ -1,5 +1,7 @@
 # amqp
 node.js amqplib Conn reContent publisher consumer Package
+`
+const amqp = require('./amqp');
 (async () => {
     await amqp.getConn(io);
     Object.keys(consumers).forEach(function (key) {
@@ -12,3 +14,4 @@ node.js amqplib Conn reContent publisher consumer Package
       })();
     });
   })();
+  `
